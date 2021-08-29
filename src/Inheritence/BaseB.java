@@ -24,6 +24,10 @@ public class BaseB {
 
     public static WebDriver driver;
 
+    public final void method2(String s){
+        System.out.println("Pinaki");
+    }
+
     public void method1(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
